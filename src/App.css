@@ -1,0 +1,27 @@
+
+
+body {
+  background: darkcyan;
+}
+
+.card, h1{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(43, 36, 37); 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 40px; 
+ 
+   
+ 
+}

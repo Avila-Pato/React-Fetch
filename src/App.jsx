@@ -1,9 +1,9 @@
-/* eslint-disable no-undef */
+
 import { Suspense } from 'react';
 import  { fetchData } from './fetchData.js'
 import './App.css'
 
-// eslint-disable-next-line no-unused-vars
+
 const apiData =fetchData ("https://jsonplaceholder.typicode.com/users")
 function App() {
   const data = apiData.read();
